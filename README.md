@@ -64,7 +64,7 @@ Node.js 20.9 eller senare. Node.js 22 rekommenderas.
 Innan du mäter ska du kontrollera att du kan:
 
 - se caféets startsida och meny
-- hoppa till menyn från hjälteområdet
+- hoppa till menyn från sidans översta del
 - filtrera menyn med kategorierna Kaffe, Fika och Lunch
 - återställa filtret med Alla
 
@@ -136,8 +136,9 @@ npm run test
 npm run build
 ```
 
-Kontrollerna säkerställer att sidan fortfarande fungerar och går att bygga. De
-mäter inte Lighthouse och sätter inget betyg på din prestanda.
+De funktionella testerna kontrollerar bland annat att menyn visas, att
+kategorifiltreringen fungerar och att länken till menyn finns kvar. De mäter
+inte Lighthouse och sätter inget betyg på din prestanda.
 
 Ändra eller ta inte bort `.github/workflows/checks.yml`. Codington visar om
 kontrollerna körs, har lyckats eller har misslyckats.
@@ -151,4 +152,3 @@ När du är klar:
 
 Uppgiften är obetygsatt. Fokus ligger på arbetsflödet och på att kunna mäta,
 diagnostisera och förklara dina förbättringar.
-
